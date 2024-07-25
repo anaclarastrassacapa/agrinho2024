@@ -79,6 +79,13 @@ li:hover{
     text-align: center;
 }
 
+section_quinta {
+    border-radius: 0% 0% 10% 10%;
+    background-color: var(--green-secondary);
+    padding-bottom: 30vh;
+    text-align: center;
+}
+
 /* Responsividade */
 @media only screen and (max-width: 768px) { 
     #logo {
