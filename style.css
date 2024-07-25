@@ -1,0 +1,88 @@
+:root{
+    --black-primary: #232323;
+    --green-primary: #2DA169;
+    --green-secondary: #248857;
+}
+
+* {
+    overflow-x: hidden; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--black-primary);
+    height: 10vh;
+    margin: -10px -2% 80px -2%;
+    box-shadow: var(--black-primary) 0px 5px 15px;
+}
+
+#logo{
+    height: 15vh;
+    display: block;
+    margin-bottom: -10px;
+}
+
+li{
+    color: white;
+    letter-spacing: 4px;
+    list-style: none;
+}
+
+li:hover{
+    box-shadow: var(--green-primary) 0px 2px 0px;
+    font-size: large;
+}
+
+/* Seções */
+#sections {
+    margin: 6vh auto;
+    justify-content: space-around;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#sections h1{
+    padding: 80px 80px 140px 80px;
+    text-align: center;
+}
+
+.section_primeira {
+    border-radius: 10% 10% 0% 0%;
+    background-color: var(--green-primary);
+    text-align: center;
+}
+
+.section_segunda {
+    background-color: var(--green-secondary);
+    padding-bottom: 30vh;
+    text-align: center;
+}
+
+.section_terceira {
+    background-color: var(--green-primary);
+    padding-bottom: 30vh;
+    text-align: center;
+}
+
+.section_quarta {
+    border-radius: 0% 0% 10% 10%;
+    background-color: var(--green-secondary);
+    padding-bottom: 30vh;
+    text-align: center;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 768px) { 
+    #logo {
+      display: none;
+    }
+
+  }
